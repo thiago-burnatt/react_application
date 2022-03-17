@@ -1,6 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://15.229.7.150',
-  // baseURL: 'http:localhost:3001',
+  baseURL: 'https://react-application-six.vercel.app/',
 });
